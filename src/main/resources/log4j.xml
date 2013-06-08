@@ -9,7 +9,7 @@
 		</layout>
 	</appender>
 
-	<logger name="dmk.springmvc" additivity="false">
+	<logger name="dmk" additivity="false">
 		<level value="debug" />
 		<appender-ref ref="console" />
 	</logger>

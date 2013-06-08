@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dmk</groupId>
 	<artifactId>tyrus-ws</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -42,14 +42,10 @@
 			<groupId>javax.websocket</groupId>
 			<artifactId>javax.websocket-api</artifactId>
 			<version>1.0</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- tyrus, JSR 356 reference implementation and embedded server jars -->
-		<dependency>
-			<groupId>org.glassfish.tyrus</groupId>
-			<artifactId>tyrus-server</artifactId>
-			<version>1.0</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.glassfish.tyrus</groupId>
@@ -68,6 +64,7 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
